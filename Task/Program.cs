@@ -10,10 +10,10 @@ Clear();
  
 string[] array = {"hello", "2", "world", ":-)"};
 
-WriteLine($"2 вар: В исходном массиве [{String.Join(", ", array)}] количество строк, соответствующих условию = {GetCount(array)} это {FindStringsInArray1(array)}");
+WriteLine($"1 вар: В исходном массиве [{String.Join(", ", array)}] количество строк, соответствующих условию = {GetCount(array)} это {FindStringsInArray1(array)}");
 WriteLine();
 var result = FindStringsInArray2(array);
-WriteLine($"3 вар: В исходном массиве [{String.Join(", ", array)}] количество строк, соответствующих условию = {result.Length} - [{String.Join(", ", result)}]");
+WriteLine($"2 вар: В исходном массиве [{String.Join(", ", array)}] количество строк, соответствующих условию = {result.Length} - [{String.Join(", ", result)}]");
 WriteLine();
 
 int GetCount(string[] ar)
